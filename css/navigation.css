@@ -1,0 +1,67 @@
+#logonav{
+    position:relative;
+    display:inline-block;
+    background-image: url("../pict/icons/logo/Nestropa_xsm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70px;
+    height:70px;
+
+    left:20px;
+    z-index: 9999999999999;
+}
+
+#menucont{
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    right: 76px;
+    top: 9px;
+}
+
+.menulabel{
+    position: relative;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    font-weight: 800;
+    color: #ea550a;
+}
+
+/*effect*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  a.naveff {
+    text-decoration: none;
+    position: relative;
+    /*
+      webkit-transition: all 0.15s ease-out;
+      -moz-transition: all 0.15s ease-out;
+      -o-transition: all 0.15s ease-out;
+      -ms-transition: all 0.15s ease-out;
+      transition: all 0.15s ease-out;
+    */
+  }
+  a.naveff:before {
+    content: "";
+    position: absolute;
+    width: 95%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ea550a;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+    transition: all 0.5s cubic-bezier(1, 0.25, 0, 0.75) 0s;
+  }
+  a.naveff:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }

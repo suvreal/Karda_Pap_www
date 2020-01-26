@@ -1,0 +1,97 @@
+/*General*/
+html, body{
+    width:100%;
+    margin: 0 auto;
+}
+
+/*Main sections*/
+#navigation{
+    display: block;
+    position: fixed;
+    background-color:#e2e2e2;
+    width:100%;
+    height:70px;
+    z-index:9999;
+    opacity: 0.8;
+    top: 0;
+    filter: alpha(opacity=80);
+}
+
+.mySlides {
+    display:none;
+}
+
+#head{
+    display: block;
+    position: relative;
+    background-color:transparent;
+    width:100%;
+    height: 1000px;
+}
+
+#about{
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+#gallery{
+    display: block;
+    position: relative;
+    width:100%;
+    height:300px;
+    padding: 1px;
+    overflow-y: scroll;
+}
+
+#social{
+    display: block;
+    position: relative;
+    background-color:purple;
+    width:100%;
+    height:200px;
+    padding: 10px;
+}
+
+#contact{
+    display: block;
+    position: relative;
+    width:100%;
+    min-height:800px;
+    padding: 10px;
+    border-top: 20px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #3e5d04 0%, #3e5d04 100%);
+    -webkit-border-image: -webkit-linear-gradient(top left, #6d9027 0%, #3e5d04 100%);
+    border-image: linear-gradient(to bottom right, #3e5d04 0%, #6d9027 100%);
+    border-image-slice: 1;
+}
+
+#footer{
+    display: block;
+    position: relative;
+    background-color:#333;
+    width:100%;
+    height:200px;
+    padding: 5px;
+}
+
+#simplecontent{
+    display: block;
+    position: relative;
+    background-color:#eee;
+    width:100%;
+    height:200px;
+    margin-top:70px;
+    padding: 10px;
+}
+
+
+/*icons and links*/
+.material-icons{
+    /*color:#2e4600 !important;*/
+    color:#7d7d7d !important;
+    font-size: 90px !important;
+}

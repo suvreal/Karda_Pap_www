@@ -1,0 +1,160 @@
+
+/*text and headers*/
+
+h1{
+    text-align:center;
+    margin:0 auto;
+    font-weight:600 !important;
+    color:#2e4600;
+}
+
+h2{
+    text-align:center;
+    margin:0 auto;
+    font-weight:700 !important;
+    color:#888;
+}
+
+h3{
+    text-align:center;
+    margin:0 auto;
+    font-weight:800 !important;
+    color:#333;
+}
+
+/*about*/
+
+
+.aboutsections{
+    display: inline-block;
+    position: relative;
+    text-align:center;
+}
+
+#aboutsection, #referencessection{
+    text-align:center;
+    width:45%;
+    height: 155px;
+    background-color:#efefef;
+    border-radius:2px;
+}
+
+#referencessection{
+    padding:15px;
+}
+
+#aboutsection{
+    padding:15px;
+}
+
+.iconabout{
+    position: relative !important;
+    width: 100px;
+    height: 100px;
+    top: -60px;
+    /* color: #ea550a !important; */
+    background-color: #ea550a;
+    /* display: block; */
+    text-align: center;
+    margin: auto;
+}
+
+.headerabout{
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+    font-size: 24px;
+    color: #2e4600;
+    font-weight: 800;
+    position: relative;
+    display:block;
+    top: -55px;
+}
+
+.textabout{
+    text-align:justify;
+    font-weight:600;
+    color:#444;
+    display:block;
+    position: relative;
+    top: -55px;
+}
+
+.linkabout{
+    /* margin: auto; */
+    /* text-align: center; */
+    color: #ea550a;
+    /* display: block; */
+    position: relative;
+    top: -35px;
+    font-weight: 800;
+}
+
+
+/*Form*/
+form{
+    text-align: center;
+    /* margin: auto; */
+    width: 450px;
+    height: 800px;
+    left: 70%;
+    position: absolute;
+    display: inline-block;
+    /* background-color: #888;*/
+}
+
+input, textarea{
+    border-radius:3px;
+    border:2px solid #999;
+    padding: 10px;
+    width: 445px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #ea550a;
+}
+
+textarea{
+    resize:none;
+}
+
+label{
+    font-size: 16px;
+    font-weight: 800;
+    color: #444;
+}
+
+input[type="submit"]{
+    background-color: #ea550a;
+    color: white;
+    border: none;
+    font-weight: 900;
+    height: 60px;
+    width: 214px;
+    transition-duration:2s;
+}
+
+input[type="submit"]:hover{
+    background-color: #2e4600;
+    cursor:pointer;
+
+}
+
+
+/*map*/
+
+#map{
+    position: static;
+    display: inline-block;
+}
+
+
+/*contact*/
+#contactInfo{
+    position: static;
+    display: inline-block;
+}
+
+#contLogo{
+    display: inline-block;
+    position: absolute;
+}
