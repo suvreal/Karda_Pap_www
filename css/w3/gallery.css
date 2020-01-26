@@ -1,6 +1,10 @@
 .row > .column {
     padding: 0 8px;
   }
+
+  .row{
+    margin:auto;
+  }
   
   .row:after {
     content: "";
@@ -112,8 +116,8 @@
   }
 
   img.gallery{
-      width:200px !important;
-      height:200px !important;
+    width: 190px !important;
+    height: 200px !important;
   }
 
   img.galleryThumb{
@@ -128,8 +132,11 @@
   img.hover-shadow {
     transition: 0.3s;
     cursor: pointer;
+    border-radius:2px;
   }
   
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.3;
+    filter: alpha(opacity=30);
   }
