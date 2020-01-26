@@ -27,7 +27,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "info@nestropa.cz";
+    $email_to = "info@nestropa.cz, bartas.elias@gmail.com, jemolotrab.salie@gmail.com";
  
     function died($error) {
         // your error code can go here
